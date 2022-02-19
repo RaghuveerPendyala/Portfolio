@@ -1,0 +1,17 @@
+<!--Student name : Raghuveer Kumar Pendyala(301178112),
+Subject :COMP229-web application development
+Date : 19 feb 2022 -->
+<!--Error-->
+<% include partials/header.ejs%>
+
+
+  <% include partials/main_nav.ejs %>
+
+<h1><%= message %></h1>
+<h2><%= error.status %></h2>
+<pre><%= error.stack %></pre>
+
+<%include partials/bottom_nav.ejs %>
+
+
+<% include partials/footer.ejs%>
